@@ -4,5 +4,5 @@
   "description": "Count words in a text file",
   "type": "module",
   "bin": { "tally": "src/cli.js" },
-  "scripts": { "test": "node --test", "start": "node src/cli.js" }
+  "scripts": { "test": "node --test", "start": "node src/cli.js", "web": "node src/server.js" }
 }
